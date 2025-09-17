@@ -6,7 +6,10 @@
     "clean": "rm -rf .turbo node_modules",
     "lint": "eslint",
     "format": "prettier --write '**/*.{js,cjs,mjs,ts,tsx,md,json}'  --ignore-path .prettierignore",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "dev": "nitro dev",
+    "build": "nitro build",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@auth/core": "0.31.0"

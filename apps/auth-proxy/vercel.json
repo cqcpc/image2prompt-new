@@ -1,0 +1,6 @@
+{
+  "buildCommand": "nitro build",
+  "outputDirectory": ".output",
+  "devCommand": "nitro dev",
+  "framework": null
+}

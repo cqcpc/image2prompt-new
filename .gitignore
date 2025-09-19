@@ -34,6 +34,7 @@ yarn-error.log*
 
 # local env files
 .env.local
+.env*.local
 
 # vercel
 .vercel
@@ -50,3 +51,14 @@ package-lock.json
 .idea/
 
 .env
+
+# 临时测试脚本
+check-supabase-status.js
+diagnose-connection.js
+final-db-test.js
+simple-db-test.js
+test-db-connection.js
+test-db-connection.ts
+test-supabase-connection.js
+verify-db-connection.mjs
+verify-supabase-connection.js
